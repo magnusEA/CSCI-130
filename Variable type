@@ -1,0 +1,19 @@
+//Edgar Abundiz
+//CSCI 130
+
+package main
+
+import "fmt"
+
+func main (){
+	
+	String := "What's up"
+	Integer := 99
+	Float := 55.1
+	Boolean := false
+
+	fmt.Printf("%T \n", String)
+	fmt.Printf("%T \n", Integer)
+	fmt.Printf("%T \n", Float)
+	fmt.Printf("%T \n", Boolean)
+}
